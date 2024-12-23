@@ -260,7 +260,7 @@ void SourceParser::saveTokensValueToFoundVariable(ParseResultBase& foundVar) {
     }
 }
 
-bool SourceParser::convertValueToBool(const string& value) throw (std::invalid_argument) {
+bool SourceParser::convertValueToBool(const string& value) {
     if (value.compare("true") == 0) {
         return true;
     } else if(value.compare("false") == 0) {

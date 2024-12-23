@@ -78,7 +78,7 @@ class SourceParser {
     bool isLineInIgnoreList(int lineNr);
     void addCommentLinesToIgnoreList();
 
-    bool convertValueToBool(const string& value) throw (std::invalid_argument);
+    bool convertValueToBool(const string& value);
     bool isNumberFloat(const string& line);
     bool isNumberInt(const string& line);
 };
