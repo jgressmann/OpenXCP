@@ -11,6 +11,7 @@
 #include <QBitArray>
 #include <iostream>
 #include <stdexcept>
+#include <cmath>
 
 
 XcpTask::XcpTask(QSharedPointer<Model> &model, QObject *parent)
