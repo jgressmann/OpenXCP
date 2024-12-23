@@ -93,15 +93,6 @@ HEADERS += \
     libs/libelfin/elf/elf++.hh \
     libs/libelfin/elf/mman.h \
     libs/libelfin/elf/to_hex.hh \
-    libs/qtcsv/include/qtcsv/abstractdata.h \
-    libs/qtcsv/include/qtcsv/qtcsv_global.h \
-    libs/qtcsv/include/qtcsv/reader.h \
-    libs/qtcsv/include/qtcsv/stringdata.h \
-    libs/qtcsv/include/qtcsv/variantdata.h \
-    libs/qtcsv/include/qtcsv/writer.h \
-    libs/qtcsv/sources/contentiterator.h \
-    libs/qtcsv/sources/filechecker.h \
-    libs/qtcsv/sources/symbols.h \
     main/backend.h \
     main/controller.h \
     main/model.h \
@@ -142,6 +133,7 @@ HEADERS += \
     xcpConfig/xcpHostConfig.h \
     xcpConfig/xcpOptions.h
 
+include(libs/qtcsv/qtcsv.pri)
 
 FORMS += \
     ui/dialogDeviceEventsInsert.ui \

@@ -1,0 +1,4 @@
+[submodule "XCP_Master/source/libs/qtcsv"]
+	path = XCP_Master/source/libs/qtcsv
+	url = https://github.com/iamantony/qtcsv.git
+	branch = qt4_qt5
