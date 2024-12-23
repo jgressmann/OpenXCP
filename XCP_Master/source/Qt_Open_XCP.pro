@@ -81,7 +81,8 @@ SOURCES += \
     xcpConfig/xcpEvent.cpp \
     xcpConfig/xcpHostConfig.cpp \
     xcpConfig/xcpOptions.cpp \
-    libs/libelfin/elf/mman.c
+
+win32:SOURCES += libs/libelfin/elf/mman.c
 
 HEADERS += \
     libs/libelfin/dwarf/data.hh \
@@ -147,7 +148,9 @@ RESOURCES += \
 DISTFILES += \
     resource/LICENSE.md
 
-win32: LIBS += -L$$PWD/libs/qtcsv/debug/ -lqtcsv1
+win32: {
+    LIBS += -L$$PWD/libs/qtcsv/debug/ -lqtcsv1
 
-INCLUDEPATH += $$PWD/libs/qtcsv/debug
-DEPENDPATH += $$PWD/libs/qtcsv/debug
+    INCLUDEPATH += $$PWD/libs/qtcsv/debug
+    DEPENDPATH += $$PWD/libs/qtcsv/debug
+}

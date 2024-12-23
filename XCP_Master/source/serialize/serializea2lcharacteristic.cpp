@@ -5,7 +5,7 @@
 *@brief Serialize calibration- settings to an A2L file.
 */
 
-#include "serializeA2lCharacteristic.h"
+#include "serializea2lcharacteristic.h"
 
 #include <iostream>
 

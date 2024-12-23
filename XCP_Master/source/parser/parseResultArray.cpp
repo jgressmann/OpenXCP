@@ -7,7 +7,7 @@
 
 #include "parseResultArray.h"
 #include "serialize/serializeA2lMeasurement.h"
-#include "serialize/serializeA2lCharacteristic.h"
+#include "serialize/serializea2lcharacteristic.h"
 
 #include <iostream>
 

@@ -10,7 +10,7 @@
 
 #include "elfParser.h"
 #include "dwarfParser.h"
-#include "sourceParser.h"
+#include "sourceparser.h"
 
 #include "parseResultVariable.h"
 #include "parseResultArray.h"
