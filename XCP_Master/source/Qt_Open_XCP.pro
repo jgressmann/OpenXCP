@@ -147,10 +147,3 @@ RESOURCES += \
 
 DISTFILES += \
     resource/LICENSE.md
-
-win32: {
-    LIBS += -L$$PWD/libs/qtcsv/debug/ -lqtcsv1
-
-    INCLUDEPATH += $$PWD/libs/qtcsv/debug
-    DEPENDPATH += $$PWD/libs/qtcsv/debug
-}
